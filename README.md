@@ -1,6 +1,13 @@
 # pytanic
 Data Visualization using Python
 
+*RMS Titanic, known for its infamous shipwreck in the North Atlantic Ocean on 15 April 1912. Among the deadliest tragediest of all time, killing more than 1500 poeple of the estimated 2224 passengers and crew. The disaster drew much public attention, which not only led to better safety guidelines for ships but also provided foundational material for the disaster film genre.*
+
+The dataset contains the details of only 891 passengers.
+
+## Overview of the Dataset
+Given table contains the details of the columns along with their parameters, which is crucial for the understanding of the data analyst working with the dataset.
+
 | Variable| Attributes / Definition | Meaning if any |
 |-|-|-|
 | Survival| 0<br>1 | No<br>Yes |
@@ -13,6 +20,9 @@ Data Visualization using Python
 | fare | passenger fare |
 | cabin | cabin number |
 | embarked | **Port of Embarkation**<br>C<br>Q<br>S | <br>Cherbourg<br>Queenstown<br>Southampton |
+
+## Conclusion
+These the following conclusion we can make after analysing the following data.
 
 <details>
 <summary>Links to all the resources from where I learnt the following</summary>
