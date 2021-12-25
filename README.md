@@ -5,6 +5,12 @@ Data Visualization using Python
 
 The dataset contains the details of only 891 passengers.
 
+## Project Components
+1. Data Inspection
+2. Data Cleaning
+3. Data Visualization
+4. FAQs related to the DataSet 
+
 ## Overview of the Dataset
 Given table contains the details of the columns along with their parameters, which is crucial for the understanding of the data analyst working with the dataset.
 
@@ -20,6 +26,17 @@ Given table contains the details of the columns along with their parameters, whi
 | fare | passenger fare |
 | cabin | cabin number |
 | embarked | **Port of Embarkation**<br>C<br>Q<br>S | <br>Cherbourg<br>Queenstown<br>Southampton |
+
+#### NOTE
+In other projects you would notice that the analyst has two .csv files namely, `train.csv` and `test.csv`.<br>
+  
+`test.csv` file $=>$ used for **testing the model** generated.   
+`train.csv` file $=>$ used for **training the model with the dataset** we work on. 
+<br>  
+The conclusive values and end results made by models also varies with the percentage of dataset alloted for each of the two .csv files.     
+Which means that we may have different results when the data alloted for train.csv and test.csv is 50-50 as opposed to a case where it is 70-30 
+<br><br>
+Whereas in my project there is only one csv file, because I have decided not to divide my dataset in any manner and work with the dataset in it's entirity. 
 
 ## Conclusion
 These the following conclusion we can make after analysing the following data.
