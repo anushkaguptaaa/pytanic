@@ -30,8 +30,8 @@ Given table contains the details of the columns along with their parameters, whi
 #### NOTE
 In other projects you would notice that the analyst has two .csv files namely, `train.csv` and `test.csv`.<br>
   
-`test.csv` file $=>$ used for **testing the model** generated.   
-`train.csv` file $=>$ used for **training the model with the dataset** we work on. 
+`test.csv` file ➨ used for **testing the model** generated.   
+`train.csv` file ➨ used for **training the model with the dataset** we work on. 
 <br>  
 The conclusive values and end results made by models also varies with the percentage of dataset alloted for each of the two .csv files.     
 Which means that we may have different results when the data alloted for train.csv and test.csv is 50-50 as opposed to a case where it is 70-30 
