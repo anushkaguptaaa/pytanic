@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <title>Data Visualization</title>
 
 <script src="./JavaScript_File/require.min.js.download"></script>
 <script src="./JavaScript_File/jquery.min.js.download"></script>
 
-
-
 <style type="text/css">
-    /*!
-*
-* Twitter Bootstrap
-*
-*/
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -197,7 +183,6 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
@@ -13247,35 +13232,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a id="top"></a></p>
-<h3 id="Procedure-followed-throughout-the-project">Procedure followed throughout the project<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#Procedure-followed-throughout-the-project">¶</a></h3><ol>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#import">Importing Packages</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#inspect">Data Inspection</a><ul>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#2.1">Dataset at a glance</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#2.2">Columns at a glance</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#2.3">To check whether data contains any null values</a></li>
-</ul>
-</li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#dcl">Data Cleaning</a><ul>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#3.1">Dropping data column</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#3.2">Populating the missing ages</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#3.3">Missing embarkation ports</a></li>
-</ul>
-</li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#visual">Data Visualization</a><ul>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.1">Scatter plot of Fare versus Age</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.2">Bar Graph to represent the Seat Class taken by passengers</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.3">Histogram to represent Age</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.4">Bar plot of the Survival Rate of People</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.5">Heat Map of Survial vs PClass</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.6">Cool way to represent Age, Survival and Pclass</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.7">Violin plot of Gender versus Age</a></li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#4.8">Bar plot of Embarkment vs Count keeping Pclass into consideration</a></li>
-</ul>
-</li>
-<li><a href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/f7e660cb322550d05c855bb9a97ce36d/Data%20Visualization%20with%20Titanic.html?t=1641827828739#suggest">Sugestion</a></li>
-</ol>
-
+<!-- <p><a id="top"></a></p> -->
 </div>
 </div>
 </div>
