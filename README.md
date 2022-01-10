@@ -39,7 +39,7 @@ Which means that we may have different results when the data alloted for train.c
 Whereas in my project there is only one csv file, because I have decided not to divide my dataset in any manner and work with the dataset in it's entirity. 
 
 ## Conclusion
-These the following conclusion we can make after analysing the following data.
+These the following conclusion we can make after analysing the following data.<br>
 You can see the online deployment of the notebook by clicking on [this link](https://sewimpractical.github.io/pytanic/DataVisualizationWithTitanic.html)
 
 <details>
