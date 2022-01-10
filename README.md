@@ -30,8 +30,8 @@ Given table contains the details of the columns along with their parameters, whi
 #### NOTE
 In other projects you would notice that the analyst has two .csv files namely, `train.csv` and `test.csv`.<br>
   
-`test.csv` file ➨ used for **testing the model** generated.   
-`train.csv` file ➨ used for **training the model with the dataset** we work on. 
+`test.csv` ➨ used for **testing the model** generated.   
+`train.csv` ➨ used for **training the model with the dataset** we work on. 
 <br>  
 The conclusive values and end results made by models also varies with the percentage of dataset alloted for each of the two .csv files.     
 Which means that we may have different results when the data alloted for train.csv and test.csv is 50-50 as opposed to a case where it is 70-30 
@@ -40,6 +40,8 @@ Whereas in my project there is only one csv file, because I have decided not to 
 
 ## Conclusion
 These the following conclusion we can make after analysing the following data.
+
+You can see the online deployment of the notebook by clicking on [this link](https://sewimpractical.github.io/pytanic/DataVisualizationWithTitanic.html)
 
 <details>
 <summary>Links to all the resources from where I learnt the following</summary>
