@@ -40,7 +40,7 @@ Whereas in my project there is only one csv file, because I have decided not to 
 
 ## Conclusion
 These the following conclusion we can make after analysing the following data.<br>
-You can see the online deployment of the notebook by clicking on [this link](https://sewimpractical.github.io/pytanic/DataVisualizationWithTitanic.html)
+You can see the online deployment of the notebook by clicking on [this link](https://sewimpractical.github.io/pytanic/index.html)
 
 <details>
 <summary>Links to all the resources from where I learnt the following</summary>
