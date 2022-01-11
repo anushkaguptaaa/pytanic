@@ -9,7 +9,6 @@ The dataset contains the details of only 891 passengers.
 1. Data Inspection
 2. Data Cleaning
 3. Data Visualization
-4. FAQs related to the DataSet 
 
 ## Overview of the Dataset
 Given table contains the details of the columns along with their parameters, which is crucial for the understanding of the data analyst working with the dataset.
@@ -40,6 +39,10 @@ Whereas in my project there is only one csv file, because I have decided not to 
 
 ## Conclusion
 These the following conclusion we can make after analysing the following data.<br>
+- Most passengers were travelling to 
+- Women were given priority during the evaculation
+- The chances of survival was correlated to the fare paid by each passenger<br>
+  
 You can see the online deployment of the notebook by clicking on [this link](https://sewimpractical.github.io/pytanic/index.html)
 
 <details>
